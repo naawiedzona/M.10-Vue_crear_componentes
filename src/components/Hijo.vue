@@ -3,14 +3,7 @@
         <p>{{mensaje}}</p>
     </div>
 </template>
-<script>
-export default {
-    data () {
-        return {
-            mensaje: 'Soy el hijo'
-        }
-    }
-}
-</script>
-<style scoped>
-</style>
+
+
+<script src="./../scripts/hijo.js"></script>
+<style src="./../styles/hijo.css" scoped></style>
